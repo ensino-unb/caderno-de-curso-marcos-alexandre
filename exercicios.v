@@ -12,5 +12,6 @@ Section aula2.
       intro H1. intro H2. intro H3.
       apply H1. apply H3. apply H2. (*no coq, o uso de H1 já aplica mais 
                                      eliminações e axiomas diretamente*)
+    Qed.
 
 End aula2.
